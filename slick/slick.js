@@ -1299,7 +1299,7 @@
                     'id': 'slick-slide' + _.instanceUid + i + ''
                 });
             })
-                .find('button').attr('role', 'button').end()
+                .find('button').attr('role', 'tab').end()
                 .closest('div').attr('role', 'toolbar');
         }
         _.activateADA();
